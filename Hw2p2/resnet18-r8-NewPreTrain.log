@@ -1,0 +1,490 @@
+
+Epoch 1/40
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 1/40:
+Train Cls. Acc 0.2013%	 Train Cls. Loss 8.5316	 Learning Rate 0.0115
+Val Cls. Acc 0.4900%	 Val Cls. Loss 8.0549
+{'ACC': 64.7, 'EER': 35.84521384929619, 'AUC': 69.70218350745641, 'TPRs': [('TPR@FPR=1e-4', 5.906313645621181), ('TPR@FPR=5e-4', 5.906313645621181), ('TPR@FPR=1e-3', 5.906313645621181), ('TPR@FPR=5e-3', 5.906313645621181), ('TPR@FPR=5e-2', 20.366598778004075)]}
+Val Ret. Acc 64.7000%
+Saved epoch model
+Saved best classification model
+Saved best retrieval model
+
+Epoch 2/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 2/40:
+Train Cls. Acc 4.4371%	 Train Cls. Loss 6.8155	 Learning Rate 0.0160
+Val Cls. Acc 9.5911%	 Val Cls. Loss 6.1436
+{'ACC': 75.4, 'EER': 25.661914460334618, 'AUC': 82.3262737126829, 'TPRs': [('TPR@FPR=1e-4', 3.2586558044806515), ('TPR@FPR=5e-4', 3.2586558044806515), ('TPR@FPR=1e-3', 3.2586558044806515), ('TPR@FPR=5e-3', 12.830957230142568), ('TPR@FPR=5e-2', 48.676171079429736)]}
+Val Ret. Acc 75.4000%
+Saved epoch model
+Saved best classification model
+Saved best retrieval model
+
+Epoch 3/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 3/40:
+Train Cls. Acc 17.7445%	 Train Cls. Loss 5.5776	 Learning Rate 0.0232
+Val Cls. Acc 29.8503%	 Val Cls. Loss 4.8607
+{'ACC': 77.3, 'EER': 23.42158859472547, 'AUC': 84.58740631964757, 'TPRs': [('TPR@FPR=1e-4', 8.55397148676171), ('TPR@FPR=5e-4', 8.55397148676171), ('TPR@FPR=1e-3', 8.55397148676171), ('TPR@FPR=5e-3', 15.478615071283095), ('TPR@FPR=5e-2', 43.58452138492871)]}
+Val Ret. Acc 77.3000%
+Saved epoch model
+Saved best classification model
+Saved best retrieval model
+
+Epoch 4/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 4/40:
+Train Cls. Acc 35.2457%	 Train Cls. Loss 4.6049	 Learning Rate 0.0325
+Val Cls. Acc 45.7017%	 Val Cls. Loss 4.0884
+{'ACC': 78.3, 'EER': 23.217922606929005, 'AUC': 85.51410657052885, 'TPRs': [('TPR@FPR=1e-4', 10.590631364562118), ('TPR@FPR=5e-4', 10.590631364562118), ('TPR@FPR=1e-3', 10.590631364562118), ('TPR@FPR=5e-3', 18.329938900203665), ('TPR@FPR=5e-2', 53.15682281059063)]}
+Val Ret. Acc 78.3000%
+Saved epoch model
+Saved best classification model
+Saved best retrieval model
+
+Epoch 5/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 5/40:
+Train Cls. Acc 49.2332%	 Train Cls. Loss 3.9436	 Learning Rate 0.0434
+Val Cls. Acc 57.4469%	 Val Cls. Loss 3.5517
+{'ACC': 79.1, 'EER': 21.588594704683988, 'AUC': 85.28763319315458, 'TPRs': [('TPR@FPR=1e-4', 17.515274949083505), ('TPR@FPR=5e-4', 17.515274949083505), ('TPR@FPR=1e-3', 17.515274949083505), ('TPR@FPR=5e-3', 24.643584521384927), ('TPR@FPR=5e-2', 52.138492871690424)]}
+Val Ret. Acc 79.1000%
+Saved epoch model
+Saved best classification model
+Saved best retrieval model
+
+Epoch 6/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 6/40:
+Train Cls. Acc 58.9891%	 Train Cls. Loss 3.4902	 Learning Rate 0.0550
+Val Cls. Acc 66.2972%	 Val Cls. Loss 3.1675
+{'ACC': 77.9, 'EER': 23.421588594704687, 'AUC': 85.77979265281952, 'TPRs': [('TPR@FPR=1e-4', 20.162932790224033), ('TPR@FPR=5e-4', 20.162932790224033), ('TPR@FPR=1e-3', 20.162932790224033), ('TPR@FPR=5e-3', 21.9959266802444), ('TPR@FPR=5e-2', 49.08350305498982)]}
+Val Ret. Acc 77.9000%
+Saved epoch model
+Saved best classification model
+
+Epoch 7/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 7/40:
+Train Cls. Acc 65.7685%	 Train Cls. Loss 3.1766	 Learning Rate 0.0666
+Val Cls. Acc 73.0436%	 Val Cls. Loss 2.8739
+{'ACC': 81.5, 'EER': 18.66404715126845, 'AUC': 88.26059643324439, 'TPRs': [('TPR@FPR=1e-4', 21.384928716904277), ('TPR@FPR=5e-4', 21.384928716904277), ('TPR@FPR=1e-3', 21.384928716904277), ('TPR@FPR=5e-3', 27.08757637474542), ('TPR@FPR=5e-2', 57.0264765784114)]}
+Val Ret. Acc 81.5000%
+Saved epoch model
+Saved best classification model
+Saved best retrieval model
+
+Epoch 8/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 8/40:
+Train Cls. Acc 70.6235%	 Train Cls. Loss 2.9497	 Learning Rate 0.0775
+Val Cls. Acc 76.1033%	 Val Cls. Loss 2.7318
+{'ACC': 83.3, 'EER': 17.878192534375533, 'AUC': 90.37408120230954, 'TPRs': [('TPR@FPR=1e-4', 18.329938900203665), ('TPR@FPR=5e-4', 18.329938900203665), ('TPR@FPR=1e-3', 18.329938900203665), ('TPR@FPR=5e-3', 32.586558044806516), ('TPR@FPR=5e-2', 60.896130346232184)]}
+Val Ret. Acc 83.3000%
+Saved epoch model
+Saved best classification model
+Saved best retrieval model
+
+Epoch 9/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 9/40:
+Train Cls. Acc 74.5312%	 Train Cls. Loss 2.7677	 Learning Rate 0.0868
+Val Cls. Acc 78.7672%	 Val Cls. Loss 2.6054
+{'ACC': 81.3, 'EER': 19.551934826886196, 'AUC': 89.47298924851653, 'TPRs': [('TPR@FPR=1e-4', 32.586558044806516), ('TPR@FPR=5e-4', 32.586558044806516), ('TPR@FPR=1e-3', 32.586558044806516), ('TPR@FPR=5e-3', 37.67820773930753), ('TPR@FPR=5e-2', 60.896130346232184)]}
+Val Ret. Acc 81.3000%
+Saved epoch model
+Saved best classification model
+
+Epoch 10/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 10/40:
+Train Cls. Acc 77.5525%	 Train Cls. Loss 2.6236	 Learning Rate 0.0940
+Val Cls. Acc 80.5636%	 Val Cls. Loss 2.5155
+{'ACC': 80.9, 'EER': 19.348268839103863, 'AUC': 88.65752503811235, 'TPRs': [('TPR@FPR=1e-4', 25.661914460285136), ('TPR@FPR=5e-4', 25.661914460285136), ('TPR@FPR=1e-3', 25.661914460285136), ('TPR@FPR=5e-3', 32.9938900203666), ('TPR@FPR=5e-2', 60.4887983706721)]}
+Val Ret. Acc 80.9000%
+Saved epoch model
+Saved best classification model
+
+Epoch 11/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 11/40:
+Train Cls. Acc 80.1656%	 Train Cls. Loss 2.5030	 Learning Rate 0.0985
+Val Cls. Acc 81.6558%	 Val Cls. Loss 2.4577
+{'ACC': 82.1, 'EER': 19.348268839103863, 'AUC': 89.17449253558152, 'TPRs': [('TPR@FPR=1e-4', 20.773930753564155), ('TPR@FPR=5e-4', 20.773930753564155), ('TPR@FPR=1e-3', 20.773930753564155), ('TPR@FPR=5e-3', 32.382892057026474), ('TPR@FPR=5e-2', 60.08146639511202)]}
+Val Ret. Acc 82.1000%
+Saved epoch model
+Saved best classification model
+
+Epoch 12/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 12/40:
+Train Cls. Acc 82.2908%	 Train Cls. Loss 2.4036	 Learning Rate 0.1000
+Val Cls. Acc 82.3024%	 Val Cls. Loss 2.4209
+{'ACC': 81.7, 'EER': 19.253438113915927, 'AUC': 89.63344123496012, 'TPRs': [('TPR@FPR=1e-4', 19.95926680244399), ('TPR@FPR=5e-4', 19.95926680244399), ('TPR@FPR=1e-3', 19.95926680244399), ('TPR@FPR=5e-3', 29.735234215885946), ('TPR@FPR=5e-2', 60.28513238289206)]}
+Val Ret. Acc 81.7000%
+Saved epoch model
+Saved best classification model
+
+Epoch 13/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 13/40:
+Train Cls. Acc 83.9868%	 Train Cls. Loss 2.3186	 Learning Rate 0.0997
+Val Cls. Acc 84.6426%	 Val Cls. Loss 2.3072
+{'ACC': 82.3, 'EER': 20.039292730935372, 'AUC': 89.3509497077053, 'TPRs': [('TPR@FPR=1e-4', 29.327902240325866), ('TPR@FPR=5e-4', 29.327902240325866), ('TPR@FPR=1e-3', 29.327902240325866), ('TPR@FPR=5e-3', 39.307535641547865), ('TPR@FPR=5e-2', 58.65580448065173)]}
+Val Ret. Acc 82.3000%
+Saved epoch model
+Saved best classification model
+
+Epoch 14/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 14/40:
+Train Cls. Acc 85.4311%	 Train Cls. Loss 2.2499	 Learning Rate 0.0987
+Val Cls. Acc 85.4378%	 Val Cls. Loss 2.2641
+{'ACC': 80.5, 'EER': 19.755600814663953, 'AUC': 88.34702443591723, 'TPRs': [('TPR@FPR=1e-4', 17.922606924643585), ('TPR@FPR=5e-4', 17.922606924643585), ('TPR@FPR=1e-3', 17.922606924643585), ('TPR@FPR=5e-3', 30.75356415478615), ('TPR@FPR=5e-2', 56.0081466395112)]}
+Val Ret. Acc 80.5000%
+Saved epoch model
+Saved best classification model
+
+Epoch 15/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 15/40:
+Train Cls. Acc 86.6873%	 Train Cls. Loss 2.1880	 Learning Rate 0.0972
+Val Cls. Acc 85.8781%	 Val Cls. Loss 2.2369
+{'ACC': 82.0, 'EER': 18.86051080545346, 'AUC': 89.719469107991, 'TPRs': [('TPR@FPR=1e-4', 19.75560081466395), ('TPR@FPR=5e-4', 19.75560081466395), ('TPR@FPR=1e-3', 19.75560081466395), ('TPR@FPR=5e-3', 37.270875763747455), ('TPR@FPR=5e-2', 57.23014256619145)]}
+Val Ret. Acc 82.0000%
+Saved epoch model
+Saved best classification model
+
+Epoch 16/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 16/40:
+Train Cls. Acc 87.8775%	 Train Cls. Loss 2.1319	 Learning Rate 0.0950
+Val Cls. Acc 87.1586%	 Val Cls. Loss 2.1772
+{'ACC': 81.8, 'EER': 19.05697445955238, 'AUC': 89.73667468259715, 'TPRs': [('TPR@FPR=1e-4', 32.17922606924644), ('TPR@FPR=5e-4', 32.17922606924644), ('TPR@FPR=1e-3', 32.17922606924644), ('TPR@FPR=5e-3', 33.604887983706725), ('TPR@FPR=5e-2', 58.45213849287168)]}
+Val Ret. Acc 81.8000%
+Saved epoch model
+Saved best classification model
+
+Epoch 17/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 17/40:
+Train Cls. Acc 88.8585%	 Train Cls. Loss 2.0846	 Learning Rate 0.0923
+Val Cls. Acc 87.0200%	 Val Cls. Loss 2.1770
+{'ACC': 82.0, 'EER': 18.737270875763752, 'AUC': 89.73187312689312, 'TPRs': [('TPR@FPR=1e-4', 15.885947046843176), ('TPR@FPR=5e-4', 15.885947046843176), ('TPR@FPR=1e-3', 15.885947046843176), ('TPR@FPR=5e-3', 33.80855397148676), ('TPR@FPR=5e-2', 60.28513238289206)]}
+Val Ret. Acc 82.0000%
+Saved epoch model
+
+Epoch 18/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 18/40:
+Train Cls. Acc 89.7158%	 Train Cls. Loss 2.0423	 Learning Rate 0.0891
+Val Cls. Acc 87.2811%	 Val Cls. Loss 2.1634
+{'ACC': 82.5, 'EER': 17.68172888010674, 'AUC': 89.04525066121424, 'TPRs': [('TPR@FPR=1e-4', 19.34826883910387), ('TPR@FPR=5e-4', 19.34826883910387), ('TPR@FPR=1e-3', 19.34826883910387), ('TPR@FPR=5e-3', 25.45824847250509), ('TPR@FPR=5e-2', 55.397148676171085)]}
+Val Ret. Acc 82.5000%
+Saved epoch model
+Saved best classification model
+
+Epoch 19/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 19/40:
+Train Cls. Acc 90.4760%	 Train Cls. Loss 2.0064	 Learning Rate 0.0854
+Val Cls. Acc 88.1462%	 Val Cls. Loss 2.1140
+{'ACC': 81.6, 'EER': 18.940936863543794, 'AUC': 88.83358208059411, 'TPRs': [('TPR@FPR=1e-4', 22.606924643584524), ('TPR@FPR=5e-4', 22.606924643584524), ('TPR@FPR=1e-3', 22.606924643584524), ('TPR@FPR=5e-3', 24.643584521384927), ('TPR@FPR=5e-2', 62.11812627291242)]}
+Val Ret. Acc 81.6000%
+Saved epoch model
+Saved best classification model
+
+Epoch 20/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 20/40:
+Train Cls. Acc 91.1599%	 Train Cls. Loss 1.9700	 Learning Rate 0.0812
+Val Cls. Acc 88.4333%	 Val Cls. Loss 2.0993
+{'ACC': 80.9, 'EER': 19.959266802445118, 'AUC': 88.5618940536734, 'TPRs': [('TPR@FPR=1e-4', 18.73727087576375), ('TPR@FPR=5e-4', 18.73727087576375), ('TPR@FPR=1e-3', 18.73727087576375), ('TPR@FPR=5e-3', 26.680244399185337), ('TPR@FPR=5e-2', 53.360488798370675)]}
+Val Ret. Acc 80.9000%
+Saved epoch model
+Saved best classification model
+
+Epoch 21/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 21/40:
+Train Cls. Acc 91.8204%	 Train Cls. Loss 1.9381	 Learning Rate 0.0766
+Val Cls. Acc 88.9626%	 Val Cls. Loss 2.0735
+{'ACC': 81.1, 'EER': 19.144602851323782, 'AUC': 89.74707805328927, 'TPRs': [('TPR@FPR=1e-4', 28.5132382892057), ('TPR@FPR=5e-4', 28.5132382892057), ('TPR@FPR=1e-3', 28.5132382892057), ('TPR@FPR=5e-3', 31.771894093686353), ('TPR@FPR=5e-2', 59.877800407331975)]}
+Val Ret. Acc 81.1000%
+Saved epoch model
+Saved best classification model
+
+Epoch 22/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 22/40:
+Train Cls. Acc 92.4195%	 Train Cls. Loss 1.9087	 Learning Rate 0.0717
+Val Cls. Acc 89.0805%	 Val Cls. Loss 2.0627
+{'ACC': 81.1, 'EER': 19.253438113925935, 'AUC': 89.04124936479418, 'TPRs': [('TPR@FPR=1e-4', 17.10794297352342), ('TPR@FPR=5e-4', 17.10794297352342), ('TPR@FPR=1e-3', 17.10794297352342), ('TPR@FPR=5e-3', 36.252545824847246), ('TPR@FPR=5e-2', 57.23014256619145)]}
+Val Ret. Acc 81.1000%
+Saved epoch model
+Saved best classification model
+
+Epoch 23/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 23/40:
+Train Cls. Acc 93.0336%	 Train Cls. Loss 1.8793	 Learning Rate 0.0665
+Val Cls. Acc 89.2457%	 Val Cls. Loss 2.0552
+{'ACC': 81.6, 'EER': 18.53360488799371, 'AUC': 89.51100156450691, 'TPRs': [('TPR@FPR=1e-4', 25.254582484725052), ('TPR@FPR=5e-4', 25.254582484725052), ('TPR@FPR=1e-3', 25.254582484725052), ('TPR@FPR=5e-3', 30.95723014256619), ('TPR@FPR=5e-2', 61.099796334012225)]}
+Val Ret. Acc 81.6000%
+Saved epoch model
+Saved best classification model
+
+Epoch 24/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 24/40:
+Train Cls. Acc 93.5305%	 Train Cls. Loss 1.8532	 Learning Rate 0.0611
+Val Cls. Acc 89.8514%	 Val Cls. Loss 2.0234
+{'ACC': 80.8, 'EER': 20.162932790224026, 'AUC': 89.07446012508052, 'TPRs': [('TPR@FPR=1e-4', 31.568228105906314), ('TPR@FPR=5e-4', 31.568228105906314), ('TPR@FPR=1e-3', 31.568228105906314), ('TPR@FPR=5e-3', 36.65987780040733), ('TPR@FPR=5e-2', 59.063136456211815)]}
+Val Ret. Acc 80.8000%
+Saved epoch model
+Saved best classification model
+
+Epoch 25/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 25/40:
+Train Cls. Acc 93.9485%	 Train Cls. Loss 1.8325	 Learning Rate 0.0556
+Val Cls. Acc 90.0038%	 Val Cls. Loss 2.0150
+{'ACC': 81.8, 'EER': 19.056974459696296, 'AUC': 89.6402434388742, 'TPRs': [('TPR@FPR=1e-4', 16.4969450101833), ('TPR@FPR=5e-4', 16.4969450101833), ('TPR@FPR=1e-3', 16.4969450101833), ('TPR@FPR=5e-3', 38.085539714867615), ('TPR@FPR=5e-2', 59.47046843177189)]}
+Val Ret. Acc 81.8000%
+Saved epoch model
+Saved best classification model
+
+Epoch 26/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 26/40:
+Train Cls. Acc 94.3699%	 Train Cls. Loss 1.8081	 Learning Rate 0.0500
+Val Cls. Acc 90.2217%	 Val Cls. Loss 2.0059
+{'ACC': 80.9, 'EER': 19.646365422371918, 'AUC': 89.16889072059348, 'TPRs': [('TPR@FPR=1e-4', 22.810590631364562), ('TPR@FPR=5e-4', 22.810590631364562), ('TPR@FPR=1e-3', 22.810590631364562), ('TPR@FPR=5e-3', 38.085539714867615), ('TPR@FPR=5e-2', 58.044806517311606)]}
+Val Ret. Acc 80.9000%
+Saved epoch model
+Saved best classification model
+
+Epoch 27/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 27/40:
+Train Cls. Acc 94.8431%	 Train Cls. Loss 1.7864	 Learning Rate 0.0444
+Val Cls. Acc 90.3928%	 Val Cls. Loss 1.9926
+{'ACC': 81.5, 'EER': 19.05697445966759, 'AUC': 89.04284988336222, 'TPRs': [('TPR@FPR=1e-4', 33.80855397148676), ('TPR@FPR=5e-4', 33.80855397148676), ('TPR@FPR=1e-3', 33.80855397148676), ('TPR@FPR=5e-3', 34.82688391038696), ('TPR@FPR=5e-2', 56.211812627291245)]}
+Val Ret. Acc 81.5000%
+Saved epoch model
+Saved best classification model
+
+Epoch 28/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 28/40:
+Train Cls. Acc 95.1310%	 Train Cls. Loss 1.7693	 Learning Rate 0.0389
+Val Cls. Acc 90.6962%	 Val Cls. Loss 1.9765
+{'ACC': 80.3, 'EER': 20.162932790224026, 'AUC': 88.69993878016477, 'TPRs': [('TPR@FPR=1e-4', 21.9959266802444), ('TPR@FPR=5e-4', 21.9959266802444), ('TPR@FPR=1e-3', 21.9959266802444), ('TPR@FPR=5e-3', 36.252545824847246), ('TPR@FPR=5e-2', 55.80448065173116)]}
+Val Ret. Acc 80.3000%
+Saved epoch model
+Saved best classification model
+
+Epoch 29/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 29/40:
+Train Cls. Acc 95.5543%	 Train Cls. Loss 1.7474	 Learning Rate 0.0335
+Val Cls. Acc 90.8348%	 Val Cls. Loss 1.9714
+{'ACC': 80.2, 'EER': 20.03929273092428, 'AUC': 88.69513722446072, 'TPRs': [('TPR@FPR=1e-4', 22.19959266802444), ('TPR@FPR=5e-4', 22.19959266802444), ('TPR@FPR=1e-3', 22.19959266802444), ('TPR@FPR=5e-3', 37.270875763747455), ('TPR@FPR=5e-2', 57.841140529531565)]}
+Val Ret. Acc 80.2000%
+Saved epoch model
+Saved best classification model
+
+Epoch 30/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 30/40:
+Train Cls. Acc 95.9069%	 Train Cls. Loss 1.7284	 Learning Rate 0.0283
+Val Cls. Acc 91.0839%	 Val Cls. Loss 1.9636
+{'ACC': 81.7, 'EER': 18.664047151365956, 'AUC': 89.42337317290801, 'TPRs': [('TPR@FPR=1e-4', 27.698574338085542), ('TPR@FPR=5e-4', 27.698574338085542), ('TPR@FPR=1e-3', 27.698574338085542), ('TPR@FPR=5e-3', 33.604887983706725), ('TPR@FPR=5e-2', 55.80448065173116)]}
+Val Ret. Acc 81.7000%
+Saved epoch model
+Saved best classification model
+
+Epoch 31/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 31/40:
+Train Cls. Acc 96.2211%	 Train Cls. Loss 1.7108	 Learning Rate 0.0234
+Val Cls. Acc 91.1740%	 Val Cls. Loss 1.9484
+{'ACC': 81.1, 'EER': 20.03929273083945, 'AUC': 89.01524093806393, 'TPRs': [('TPR@FPR=1e-4', 22.19959266802444), ('TPR@FPR=5e-4', 22.19959266802444), ('TPR@FPR=1e-3', 22.19959266802444), ('TPR@FPR=5e-3', 27.698574338085542), ('TPR@FPR=5e-2', 58.65580448065173)]}
+Val Ret. Acc 81.1000%
+Saved epoch model
+Saved best classification model
+
+Epoch 32/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 32/40:
+Train Cls. Acc 96.4864%	 Train Cls. Loss 1.6942	 Learning Rate 0.0188
+Val Cls. Acc 91.3306%	 Val Cls. Loss 1.9437
+{'ACC': 81.0, 'EER': 19.253438114042666, 'AUC': 88.8623914148184, 'TPRs': [('TPR@FPR=1e-4', 24.03258655804481), ('TPR@FPR=5e-4', 24.03258655804481), ('TPR@FPR=1e-3', 24.03258655804481), ('TPR@FPR=5e-3', 29.327902240325866), ('TPR@FPR=5e-2', 55.80448065173116)]}
+Val Ret. Acc 81.0000%
+Saved epoch model
+Saved best classification model
+
+Epoch 33/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 33/40:
+Train Cls. Acc 96.7719%	 Train Cls. Loss 1.6795	 Learning Rate 0.0147
+Val Cls. Acc 91.6496%	 Val Cls. Loss 1.9275
+{'ACC': 80.5, 'EER': 20.039292730832024, 'AUC': 88.71594396584493, 'TPRs': [('TPR@FPR=1e-4', 22.403258655804482), ('TPR@FPR=5e-4', 22.403258655804482), ('TPR@FPR=1e-3', 22.403258655804482), ('TPR@FPR=5e-3', 29.327902240325866), ('TPR@FPR=5e-2', 58.044806517311606)]}
+Val Ret. Acc 80.5000%
+Saved epoch model
+Saved best classification model
+
+Epoch 34/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 34/40:
+Train Cls. Acc 96.9920%	 Train Cls. Loss 1.6651	 Learning Rate 0.0109
+Val Cls. Acc 91.7172%	 Val Cls. Loss 1.9208
+{'ACC': 80.9, 'EER': 19.755600814637177, 'AUC': 89.20530251801583, 'TPRs': [('TPR@FPR=1e-4', 29.735234215885946), ('TPR@FPR=5e-4', 29.735234215885946), ('TPR@FPR=1e-3', 29.735234215885946), ('TPR@FPR=5e-3', 34.419551934826885), ('TPR@FPR=5e-2', 59.877800407331975)]}
+Val Ret. Acc 80.9000%
+Saved epoch model
+Saved best classification model
+
+Epoch 35/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 35/40:
+Train Cls. Acc 97.2026%	 Train Cls. Loss 1.6529	 Learning Rate 0.0077
+Val Cls. Acc 91.9460%	 Val Cls. Loss 1.9192
+{'ACC': 80.9, 'EER': 19.959266802443988, 'AUC': 88.71034215085687, 'TPRs': [('TPR@FPR=1e-4', 26.272912423625254), ('TPR@FPR=5e-4', 26.272912423625254), ('TPR@FPR=1e-3', 26.272912423625254), ('TPR@FPR=5e-3', 27.698574338085542), ('TPR@FPR=5e-2', 59.063136456211815)]}
+Val Ret. Acc 80.9000%
+Saved epoch model
+Saved best classification model
+
+Epoch 36/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 36/40:
+Train Cls. Acc 97.3708%	 Train Cls. Loss 1.6410	 Learning Rate 0.0050
+Val Cls. Acc 92.0610%	 Val Cls. Loss 1.9138
+{'ACC': 80.4, 'EER': 20.162932790238948, 'AUC': 88.7343499293771, 'TPRs': [('TPR@FPR=1e-4', 24.43991853360489), ('TPR@FPR=5e-4', 24.43991853360489), ('TPR@FPR=1e-3', 24.43991853360489), ('TPR@FPR=5e-3', 27.698574338085542), ('TPR@FPR=5e-2', 58.248472505091655)]}
+Val Ret. Acc 80.4000%
+Saved epoch model
+Saved best classification model
+
+Epoch 37/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 37/40:
+Train Cls. Acc 97.5042%	 Train Cls. Loss 1.6319	 Learning Rate 0.0028
+Val Cls. Acc 92.1557%	 Val Cls. Loss 1.9097
+{'ACC': 80.6, 'EER': 20.3665987780022, 'AUC': 88.74595368899523, 'TPRs': [('TPR@FPR=1e-4', 24.236252545824847), ('TPR@FPR=5e-4', 24.236252545824847), ('TPR@FPR=1e-3', 24.236252545824847), ('TPR@FPR=5e-3', 28.716904276985744), ('TPR@FPR=5e-2', 58.248472505091655)]}
+Val Ret. Acc 80.6000%
+Saved epoch model
+Saved best classification model
+
+Epoch 38/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 38/40:
+Train Cls. Acc 97.5754%	 Train Cls. Loss 1.6264	 Learning Rate 0.0013
+Val Cls. Acc 92.2112%	 Val Cls. Loss 1.9076
+{'ACC': 80.8, 'EER': 19.646365422491268, 'AUC': 88.91560865720493, 'TPRs': [('TPR@FPR=1e-4', 22.403258655804482), ('TPR@FPR=5e-4', 22.403258655804482), ('TPR@FPR=1e-3', 22.403258655804482), ('TPR@FPR=5e-3', 29.938900203665987), ('TPR@FPR=5e-2', 58.044806517311606)]}
+Val Ret. Acc 80.8000%
+Saved epoch model
+Saved best classification model
+
+Epoch 39/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+Train:   0%|          | 0/3372 [00:00<?, ?it/s]<ipython-input-439-e33df61cb32b>:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+
+Epoch 39/40:
+Train Cls. Acc 97.6453%	 Train Cls. Loss 1.6217	 Learning Rate 0.0003
+Val Cls. Acc 92.2390%	 Val Cls. Loss 1.9094
+{'ACC': 81.0, 'EER': 19.253438114067116, 'AUC': 89.10286932966281, 'TPRs': [('TPR@FPR=1e-4', 25.254582484725052), ('TPR@FPR=5e-4', 25.254582484725052), ('TPR@FPR=1e-3', 25.254582484725052), ('TPR@FPR=5e-3', 31.364562118126273), ('TPR@FPR=5e-2', 59.877800407331975)]}
+Val Ret. Acc 81.0000%
+Saved epoch model
+Saved best classification model
+
+Epoch 40/40
+  with torch.cuda.amp.autocast():  # This implements mixed precision. Thats it!
+<ipython-input-288-83a99be86432>:13: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+
+Epoch 40/40:
+Train Cls. Acc 97.6898%	 Train Cls. Loss 1.6199	 Learning Rate 0.0000
+Val Cls. Acc 92.2436%	 Val Cls. Loss 1.9075
+{'ACC': 80.5, 'EER': 19.755600814663957, 'AUC': 88.95882265854137, 'TPRs': [('TPR@FPR=1e-4', 24.236252545824847), ('TPR@FPR=5e-4', 24.236252545824847), ('TPR@FPR=1e-3', 24.236252545824847), ('TPR@FPR=5e-3', 31.160896130346234), ('TPR@FPR=5e-2', 59.47046843177189)]}
+Val Ret. Acc 80.5000%
+Saved epoch model
+Saved best classification model
+  checkpoint = torch.load(path)
+/usr/local/lib/python3.10/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
